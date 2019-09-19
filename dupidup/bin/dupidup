@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "${DUPIDUP_HOME}x" == "x" ]; then
+	echo "Please define DUPIDUP_HOME"
+fi
+source $DUPIDUP_HOME/.virtualenv/bin/activate
+python3 $DUPIDUP_HOME/dupidup/main.py $@
+deactivate
