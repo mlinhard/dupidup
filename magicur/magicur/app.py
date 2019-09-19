@@ -12,9 +12,7 @@ from magicur.event import HookEvent, KeyEvent
 import asyncio
 import sys
 from threading import Thread
-from _curses import ungetch
 import queue
-import threading
 
 
 class MagicBootstrap:

@@ -1,4 +1,4 @@
-from itertools import chain, repeat
+from itertools import repeat
 
 
 class DuplicateBox:
